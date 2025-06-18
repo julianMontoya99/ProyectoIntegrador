@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE INSCRIPCIÓN</title>
+    <style>
+        .centrar{text-align: center;}
+        .centrarTabla{width: 100%;table-layout: ;}
+        h3{text-align:center;}
+    
+    </style>
+</head>
+<body style="margin: 5%;">
+    <nav class="centrar"><h1>FORMULARIO DE INSCRIPCIÓN</h1></nav>
+    <main>
+        <form action="">
+        <h2 class="centrar">Cesde-Comfama</h2>
+        <fieldset>
+            <legend>Datos del Estudiante</legend>
+            <table class="centrarTabla">
+                <tr>
+                    <td><label for="">Identificación *</label></td>
+                    <td><input type="text" name="Identificación" id="Identificación" required placeholder="Obligatorio max (17)Nros"> </td>
+                    <td><label for="">Fecha de Nacimiento *</label></td>
+                    <td><input type="date" name="Fecha de Nacimiento" id="Fecha de Nacimiento" required></td>
+                    <td rowspan="5"><fieldset><legend>Tiempo Libre</legend>
+                    <input type="checkbox" name="" id="">Estudio<br>                    
+                    <input type="checkbox" name="" id="">Deporte<br>                    
+                    <input type="checkbox" name="" id="">Redes sociales<br>                    
+                    <input type="checkbox" name="" id="">Musica <br>
+                    <input type="checkbox" name="" id="">Video Juegos
+                    </fieldset></td>
+                </tr>
+                <tr>
+                    <td><label for="">Apellidos</label></td>
+                    <td><input type="text" name="Apellidos" id="Apellidos" required placeholder="Obligatorio max (20)letras"></td>
+                    <td><label for="">Edad</label></td>
+                    <td><input type="number" name="Edad" id="Edad" min="16" max="70"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Nombre</label></td>
+                    <td><input type="text" name="Nombre" id="Nombre" required placeholder="Obligatorio max (20)letras"></td>
+                    <td><label for="">Mes de nacimiento</label></td>
+                    <td><input type="month" name="Mes de nacimiento" id="Mes de nacimiento"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Correo</label></td>
+                    <td><input type="email" name="Correo" id="Correo"></td>
+                    <td><label for="">Genero</label></td>
+                    <td><input type="radio" name="Genero" id="Genero">Masculino
+                        <input type="radio" name="Genero" id="Genero">Femenino
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Celular</label></td>
+                    <td><input type="tel" name="Celular" id="Celular" placeholder="###-###-##-##"></td>
+                    <td><label for="">Comuna (*Barrios*)</label></td>
+                    <td><select name="Comuna" id="Comuna">
+                        <option value="opcion1">Elige una opción</option>
+                        <option value="opcion2">Comuna 1 Popular</option>
+                        <option value="opcion3">Comuna 2 Santa Cruz</option>
+                        <option value="opcion4">Comuna 3 Manrique</option>
+                        <option value="opcion5">Comuna 4 Aranjuez</option>
+                        <option value="opcion6">Comuna 5 Castilla</option>
+                        <option value="opcion7">Comuna 6 Doce de Octubre</option>
+                        <option value="opcion8">Comuna 7 Robledo</option>
+                        <option value="opcion9">Comuna 8 Villa Hermosa</option>
+                        <option value="opcion10">Comuna 9 Buenos Aires</option>
+                        <option value="opcion11">Comuna 10 La Candelaria</option>
+                        <option value="opcion12">Comuna 11 Laureles</option>
+                        <option value="opcion13">Comuna 12 La America</option>
+                        <option value="opcion14">Comuna 13 San Javier</option>
+                        <option value="opcion15">Comuna 14 El Poblado</option>
+                        <option value="opcion16">Comuna 15 Guayabal</option>
+                        <option value="opcion17">Comuna 16 Belén</option>
+                    </select></td>
+                </tr>
+            </table>
+            
+        </fieldset>
+        <br>
+        <h2 class="centrar">*** SELECCIONAR LAS MATERIAS DEL SEMESTRE ***</h2>
+        <table style="margin: auto;">
+            <tr>
+                <td><h3>MATERIAS</h3></td>
+                <td><h3>Nro<br>Creditos</h3></td>
+                <td><h3>Vlr 1 Credito</h3></td>
+                <td><h3>Subtotal</h3></td>
+                <td><h3>Horario</h3></td>
+            </tr>
+            <tr>
+                <td class="centrar"><select name="Materia1" id="Materia1">
+                <option value="opcion1">Elija una Opción</option>
+                </select></td>
+                <td class="centrar"><input type="number" name="materia1" id="materia1" min="1" max="10"></td>
+                <td class="centrar"><input type="number" name="materia1" id="materia1" placeholder="Valor Credito"></td>
+                <td><input type="number" name="materia1" id="materia1"></td>
+                <td><select name="Materia1" id="Materia1">
+                    <option value="opcion1">Elija una Opción</option>
+                </select></td>
+                <td><input type="button" value="Calcular"></td>
+            </tr>
+            <tr>
+                <td class="centrar"><select name="Materia2" id="MAteria2">
+                    <option value="opcion1">Elija una Opción</option>
+                </select></td>
+                <td class="centrar"><input type="number" name="Materia2" id="Materia2" min="1" max="10"></td>
+                <td class="centrar"><input type="number" name="Materia2" id="Materia2" placeholder="Valor Credito"></td>
+                <td><input type="number" name="Materia2" id="Materia2"></td>
+                <td><select name="MMateria2" id="Materia2">
+                    <option value="opcion1">Elija una Opción</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="centrar"><select name="Materia3" id="Materia3">
+                    <option value="opcion1">Elija una Opción</option>
+                </select></td>
+                <td class="centrar"><input type="number" name="Materia3" id="Materia3" min="1" max="10"></td>
+                <td class="centrar"><input type="number" name="Materia3" id="Materia3" placeholder="Valor Credito"></td>
+                <td><input type="number" name="Materia3" id="Materia3"></td>
+                <td><select name="Materia3" id="Materia3">
+                    <option value="opcion1">Elija una Opción</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="centrar"><select name="Materia4" id="Materia4">
+                    <option value="opcion1">Elija una Opción</option>
+                </select></td>
+                <td class="centrar"><input type="number" name="Materia4" id="Materia4" min="1" max="10"></td>
+                <td class="centrar"><input type="number" name="Materia4" id="Materia4" placeholder="Valor Credito"></td>
+                <td><input type="number" name="Materia4" id="Materia4"></td>
+                <td><select name="Materia4" id="Materia4">
+                    <option value="opcion1">Elija una Opción</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="centrar"><select name="Materia5" id="Materia5">
+                    <option value="opcion1">Elija una Opción</option>
+                </select></td>
+                <td class="centrar"><input type="number" name="Materia5" id="Materia5" min="1" max="10"></td>
+                <td class="centrar"><input type="number" name="Materia5" id="Materia5" placeholder="Valor Credito"></td>
+                <td><input type="number" name="Materia5" id="Materia5"></td>
+                <td><select name="Materia5" id="Materia5">
+                    <option value="opcion1">Elija una Opción</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="centrar">*****</td>
+                <td class="centrar"><b>Nro<br>Creditos</b></td>
+                <td class="centrar">*****</td>
+                <td class="centrar"><b>Total</b></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="centrar"><input type="number" name="NroCreditos" id="NroCreditos" min="1" max="10"></td>
+                <td>&nbsp;</td>
+                <td><input type="number" name="Total" id="Total"></td>
+                <td><input type="button" value="Calcular"></td>
+            </tr>
+        </table>
+        <br><br>
+        <input type="button" value="Enviar Datos">
+        <hr>
+        <p>Desarrollador: Julián Felipe Castaño Montoya</p>
+        <p>Correo: jcastanofe@cesde.net</p>
+        <p>Celular: 3127586463</p>
+
+        </form>
+     </main>
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>

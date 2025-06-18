@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+<body>
+    <nav><h1>Introducción a los formularios</h1></nav>
+    <main>
+        <hr>   <!-- form action sirve para conectar a bases de datos -->
+        <form action="">     <!-- etiqueta form action  --> <!-- Etiqueta label, para colocar texto que no se puede modificar -->
+            <label for="">Identificación
+
+            </label>
+            <!-- Etiqueta Label tiene cierre -->
+            <input type="text" name="cedula" id="cedula" placeholder="Cedula">   <!--Etiqueta input:text para cuadro de escritura  --><br>
+            <label for="">Nombre y apellidos</label>
+            <input type="text" name="nombres" id="nombres"><br>
+            <label for="">Edad</label>
+            <input type="number" name="Edad" id="Edad" min="18" max="60"> <br> <!-- number para que salgan las flechas y seleccionar un número -->
+            <label for="">Correo *</label>
+            <input type="email" name="Correo" id="Correo" required> <br> <!-- email para que identifique que se debe escribir un email -->
+            <label for="">Contraseña</label> <!-- required para que el campo sea obligatorio -->
+            <input type="password" name="Contraseña" id="contraseña"><br> <!-- password para que sepa que es una contraseña y oculte los digitos -->
+            <label for="">Fecha Nacimiento</label>
+            <input type="date" name="fecha Nacimiento" id="fecha Nacimiento"> <br>
+            <label for="">Fecha y Hora</label>
+            <input type="datetime-local" name="fecha y hora" id="fecha y hora"><br> <!-- datetime-local para hora de registro y fecha -->
+            <!-- placeholder, sirve para indicar en el campo una sugerencia de que se debe de ingresar y se coloca solo en etiquetas de solo text -->
+
+            <!-- Etiquetas de agrupamiento -->  <!-- fieldset -->
+             <fieldset>
+                <legend>Genero</legend> <!-- legend es el titulo del cuadro de opciones -->
+                <input type="radio" name="Genero" id="">Femenino
+                <input type="radio" name="Genero" id="">Masculino <!-- poner el mismo nombre del legend solo en el name para que -->
+                <input type="radio" name="Genero" id="">No Binario <!-- solo permita seleccionar una opcion -->
+             </fieldset> 
+             <fieldset>
+                <legend>Seleccionar Asignaturas</legend>
+                <input type="checkbox" name="" id="">Html5
+                <input type="checkbox" name="" id="">Lógica      <!-- no se coloca el name para poder que se pueda seleccionar  -->
+                <input type="checkbox" name="" id="">Base de Datos   <!-- varias opciones -->
+                <input type="checkbox" name="" id="">Programación
+             </fieldset>
+
+             <textarea name="" id="" cols="20" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore est omnis, recusandae odit aliquam ut veniam voluptatibus eaque natus exercitationem id, iusto eius et deserunt officia aspernatur tenetur praesentium fugit.</textarea> <!-- textarea para texto extenso, una carta larga, documento largo -->
+
+             <!-- recordar que lorem30 se pone sin el * -->
+            
+
+
+
+
+            <br><br>
+            <input type="submit" value="Guardar">
+
+        </form>
+
+
+    </main>
+    <footer>
+        <h2>Información de la empresa y redes sociales</h2>
+    </footer>
+    
+</body>
+</html>

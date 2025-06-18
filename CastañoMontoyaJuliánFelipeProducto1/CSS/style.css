@@ -1,0 +1,26 @@
+body{font-family: "IBM Plex Sans", sans-serif;color:black;;background-position: center;background-image: url(./imagenFondo.jpg);background-position: center; background-repeat:repeat;}
+h1{font-size: 24px;font-weight: bold;text-transform: uppercase; text-align: center;}
+h2{font-size: 18px; font-weight: bold;text-align:left;}
+h3{font-size: 16px; font-weight: bold;text-align:left;}
+p{font-size: 12px;}
+footer{height: 10px; background-color:ghostwhite; color:black;font-size: 10px; text-align: center;border-style:none;}
+.banner{width:100%; height: 400px;}
+.menu{list-style-type: none; padding: 0%;background-color:darkblue; width: 100%; margin: auto;}
+.menu li a{text-decoration: none;color: white; padding: 20px; display: block;}
+.menu li{display: inline-block; text-align: center;}
+.menu li a:hover{background-color: blue;}
+.tablaPrincipal{padding:0%; text-align: justify; border: 5px solid;border-collapse: collapse; width: 100%; width: 90%; margin: auto;background-color: ghostwhite;}
+td{border: 2px solid;font-size: 12px;}
+img{width: 200x;height: 205px; padding:0%;}
+hr{border: 2px solid;}
+.sinImagen{ font-family: "IBM Plex Sans", sans-serif;color:black;background-color: ghostwhite;}
+.video{display: flex;margin: auto;}
+.colorFondo{background-color: ghostwhite;}
+.bodyFormulario{background-color:black;color: ghostwhite;font-size;}
+.fontFormulario.{font-size: 12px;}
+.h2Formulario{font-size: 18px; font-weight: bold;text-align:left;}
+.datos{width: 300px;text-align: center;}
+.datosEquipos{width:3000px;}
+button{display: flex;}
+.pieDePagina{margin: auto; background-color: ghostwhite;}
+.tdFooter{width: 400px; height: 10px;}
